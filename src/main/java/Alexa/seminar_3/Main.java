@@ -13,7 +13,7 @@ public class Main {
         try(FileInputStream fileInputStream = new FileInputStream("src/main/java/Alexa/seminar_3/Persons.txt");
             ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream)){
             person1 = (Person) objectInputStream.readObject();
-            System.out.println("Успешная дессериализация");
+            System.out.println("Успешная десериализация");
         }
 
 
